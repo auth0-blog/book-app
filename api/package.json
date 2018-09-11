@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.0.6",
+    "casual": "^1.5.19",
+    "esm": "^3.0.81",
+    "graphql": "^14.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "jwks-rsa": "^1.3.0",
+    "lodash": "^4.17.10",
+    "mongodb": "^3.1.4",
+    "mongoose": "^5.2.12",
+    "sequelize": "^4.38.0",
+    "sqlite": "^3.0.0"
+  }
+}
