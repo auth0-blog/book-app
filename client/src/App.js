@@ -26,7 +26,7 @@ class App extends Component {
       <div>
         <Nav />
         <Route exact path='/' component={ListBook} />
-        <GuardedRoute exact path='/create' component={CreateBook} />
+        <GuardedRoute path='/create' component={CreateBook} />
         <Route exact path='/callback' component={Callback} />
       </div>
     );
